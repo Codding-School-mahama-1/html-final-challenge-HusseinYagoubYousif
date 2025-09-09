@@ -5,13 +5,78 @@ Instructions:
 1. This is your homepage. You must create at least two other HTML files (e.g., about.html, contact.html) and link to them from this page.
 inthose files 
 about.html
-`
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>About Me</title>
+  <!- Navigation back to homepage -->
+  <div id="nav">
+    <a href="index.html">Home</a> | <a href="contact.html">Contact</a>
+  </div>
+  <h1 id="about-heading">About Me</h1>
+  <p>Hello! My name is Alex. I’m learning web development and this is my project homepage.</p>
+  <img src="https://via.placeholder.com/200" alt="Placeholder profile image">
+  <h2 id="skills">My Skills</h2>
+  <ul>
+    <li>HTML & CSS</li>
+    <li>JavaScript</li>
+    <li>Problem Solving</li>
+    <li>Teamwork</li>
+  </ul>
+</body>
+</html>
+
 Add a heading (e.g., <h1>About Me</h1>).
 Write a short paragraph about yourself or the project.
 Include at least one image with an alt attribute.
 Add a list (ordered or unordered) of your skills or interests.
 Add id attributes to at least one element for linking or styling.
+
 contact.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact</title>
+</head>
+<body>
+  <div id="nav">
+    <a href="index.html">Home</a> | <a href="about.html">About</a>
+  </div>
+
+  <h1 id="contact-heading">Contact</h1>
+  <p>You can reach me by filling out the form below or checking the contact methods table.</p>
+  <form>
+    <label for="cname">Name:</label>
+    <input type="text" id="Hassan Yagub Yousif" name="Hassan Yagub Yousif"><br></br>
+
+    <label for="cemail">Email:</label>
+    <input type="email" id="husseinyagoub12@gmail.com" name="husseinyagoub12@gmail.com"><br><br>
+
+    <button type="submit">Send</button>
+  </form>
+  <h2>Contact Methods</h2>
+  <table border="1">
+    <tr>
+      <th>Method</th>
+      <th>Details</th>
+    </tr>
+    <tr>
+      <td>Email</td>
+      <td>husseinyagoub12@gmail.com</td>
+    </tr>
+    <tr>
+      <td>Phone</td>
+      <td>+250796910222</td>
+    </tr>
+    <tr>
+      <td>LinkedIn</td>
+      <td>https://www.linkedin.com/in/hussein-yagoub-8630a51b9/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BfeeSvRgdSdeaX%2Ffj5vnjBw%3D%3D</td>
+    </tr>
+  </table>
+</body>
+</html>
 
 Add a heading (e.g., <h1>Contact</h1>).
 Write a short paragraph explaining how to contact you.
